@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Blog</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="container-fluid py-3 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand font-weight-bold" href="index.html">Sakshi Gupta</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" >
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="dark-mode-toggle nav-link btn" onclick="toggleDarkMode()">☀️</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content d-flex justify-content-center align-items-center vh-80">
+        <h1>THE BLOG</h1>
+    </main>
+
+    <div class="container" id="blog">
+        <h1>Recent blog posts</h1>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="image/bg.png" alt="Office setup with two chairs and a desk">
+                <div>
+                    <p>Olivia Rhye • 1 Jan 2023</p>
+                    <h2>UX review presentations</h2>
+                    <p>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                    <div class="tags">
+                        <span class="tag" style="background-color: #cce4ff; color: #004085;">Design</span>
+                        <span class="tag" style="background-color: #d4edda; color: #155724;">Research</span>
+                        <span class="tag" style="background-color: #f8d7da; color: #721c24;">Presentation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="image/bg2.png" alt="People working on laptops">
+                <div>
+                    <p>Phoenix Baker • 1 Jan 2023</p>
+                    <h2>Migrating to Linear 101</h2>
+                    <p>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...</p>
+                    <div class="tags">
+                        <span class="tag" style="background-color: #cce4ff; color: #004085;">Design</span>
+                        <span class="tag" style="background-color: #d4edda; color: #155724;">Research</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="image/bg3.png" alt="Desk setup with computer and plants">
+                <div>
+                    <p>Lana Steiner • 1 Jan 2023</p>
+                    <h2>Building your API Stack</h2>
+                    <p>The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
+                    <div class="tags">
+                        <span class="tag" style="background-color: #cce4ff; color: #004085;">Design</span>
+                        <span class="tag" style="background-color: #d4edda; color: #155724;">Research</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <img src="image/bg4.png" alt="Climate endgame article">
+                <div>
+                    <p>Olivia Rhye • 1 Jan 2023</p>
+                    <h2>Grid system for better Design User Interface</h2>
+                    <p>A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.</p>
+                    <div class="tags">
+                        <span class="tag" style="background-color: #cce4ff; color: #004085;">Design</span>
+                        <span class="tag" style="background-color: #e2d6f3; color: #5a3e85;">Interface</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_post" id="project">
+        <h1>All blog posts</h1>
+        <div class="grid_post">
+            <!-- Blog Post 1 -->
+            <div class="card_post">
+                <img src="image/post1.png" alt="Snowy mountain landscape">
+                <div class="card-content-post">
+                    <p>Alec Whitten • 1 Jan 2023</p>
+                    <h2>Bill Walsh leadership lessons</h2>
+                    <p>Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?</p>
+                    <div class="tags_post">
+                        <span>Leadership</span>
+                        <span>Management</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="card_post">
+                <img src="image/post2.png" alt="Team working on project with sticky notes">
+                <div class="card-content-post">
+                    <p>Demi Wilkinson • 1 Jan 2023</p>
+                    <h2>PM mental models</h2>
+                    <p>Mental models are simple expressions of complex processes or relationships.</p>
+                    <div class="tags_post">
+                        <span>Product</span>
+                        <span>Research</span>
+                        <span>Frameworks</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="card_post">
+                <img src="image/post3.png" alt="Workstation with computer and headphones">
+                <div class="card-content-post">
+                    <p>Candice Wu • 1 Jan 2023</p>
+                    <h2>What is Wireframing?</h2>
+                    <p>Introduction to Wireframing and its Principles. Learn from the best in the industry.</p>
+                    <div class="tags_post">
+                        <span>Design</span>
+                        <span>Research</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 4 -->
+            <div class="card_post">
+                <img src="image/post4.png" alt="Person working on a project on a white wall">
+                <div class="card-content-post">
+                    <p>Natali Craig • 1 Jan 2023</p>
+                    <h2>How collaboration makes us better designers</h2>
+                    <p>Collaboration can make our teams stronger, and our individual designs better.</p>
+                    <div class="tags_post">
+                        <span>Design</span>
+                        <span>Research</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 5 -->
+            <div class="card_post">
+                <img src="image/post5.png" alt="Person working on a laptop in a cafe">
+                <div class="card-content-post">
+                    <p>Drew Cano • 1 Jan 2023</p>
+                    <h2>Our top 10 Javascript frameworks to use</h2>
+                    <p>JavaScript frameworks make development easy with extensive features and functionalities.</p>
+                    <div class="tags_post">
+                        <span>Software Development</span>
+                        <span>Tools</span>
+                        <span>Skills</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog Post 6 -->
+            <div class="card_post">
+                <img src="image/post6.png" alt="Person recording a podcast">
+                <div class="card-content-post">
+                    <p>Orlando Diggs • 1 Jan 2023</p>
+                    <h2>Podcast: Creating a better CX Community</h2>
+                    <p>Starting a community doesn't need to be complicated, but how do you get started?</p>
+                    <div class="tags_post">
+                        <span>Podcast</span>
+                        <span>Customer Success</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button>Previous</button>
+            <div class="pages">
+                <button >1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>...</button>
+                <button>10</button>
+            </div>
+            <button>Next</button>
+        </div>
+    </div>
+   
+    <div class="container_about">
+        <div class="text-center-about">
+            <h1>About </h1>
+            <p>We help folks love, heal, understand, and move their bodies--so they can be happier, healthier humans.</p>
+        </div>
+        <div class="content_about" id="about">
+            <div class="text_about">
+                <h2>We're here to get as many people <span>moving</span> as possible.</h2>
+                <p>Not just people that are already fit, but all people. We offer a more accessible and sustainable alternative to the popular </p>
+                <p>the company is headquartered in an old maritime blog – sharing that information helps you understand the brand is a little quirky.</p>
+            </div>
+            <img src="image/about.png" alt="Group of happy people exercising together">
+        </div>
+    </div>
+<br><br>
+    <div class="container_news" id="news">
+        <div class="title_news">SUBSCRIBE TO OUR NEWSLETTER</div>
+        <div class="form-container-news">
+            <input type="email" class="email-input" placeholder="Enter your email">
+            <button class="subscribe-button-news">Subscribe Now</button>
+        </div>
+    </div>
+
+
+<br><br><br>
+    <footer>
+        <nav>
+            <p>© 2023</p>
+            <a href="https://x.com/?lang=en">Twitter</a>
+            <a href="https://www.linkedin.com/in/sakshi-gupta-19b818225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+            <a href="guptasakshi14003@gmail.com">Email</a>
+            <a href="#">RSS feed</a>
+            <a href="#">Add to Feedly</a>
+        </nav>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
